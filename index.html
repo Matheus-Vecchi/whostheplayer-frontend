@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WhosThePlayer</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script type="module" src="js/game.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Whos<span>The</span>Player</h1>
+  </header>
+
+  <main>
+    <button class="start-btn">New game</button>
+    
+    <p class="status"></p>
+
+    <form class="guess-form">
+      <input type="text" placeholder="Player's name..." />
+      <button type="submit">Guess</button>
+    </form>
+
+    <div class="cols">
+      <span>Player</span>
+      <span>Age</span>
+      <span>Country</span>
+      <span>League</span>
+      <span>Club</span>
+      <span>Position</span>
+    </div>
+
+    <ul class="guesses"></ul>
+  </main>
+</body>
+</html>
